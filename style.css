@@ -232,7 +232,8 @@ body{
 
  
 .video-wrapper{
-    text-align: center;
+    display: grid;
+    place-items: center;  
 }
 
  .product-img h4{
