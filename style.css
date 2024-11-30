@@ -9,6 +9,7 @@
 }
 
 body{
+    
     background-color: #080202;
     font-family: 'Poppins', sans-serif;
 }
@@ -228,6 +229,11 @@ body{
     width: 50%;
     text-align: left;
  }
+
+ 
+.video-wrapper{
+    text-align: center;
+}
 
  .product-img h4{
     display: inline-block;
