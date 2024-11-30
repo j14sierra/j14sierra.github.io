@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Actividad 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="menu container">
+
+            <img class="logo-1" src="images/logo.svg" alt="">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#informacion">Información</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="images/logo-1.png" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#horario">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Hamburguesa clásica</h1>
+                                <p>
+                                    Carne artesanal, vegetales, pollo, jamón, queso, crunch, papa francesa.
+                                    (puedes elegir carne de res o pollo)
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Hamburguesa Beto</h1>
+                                <p>
+                                    Carne artesanal, vegetales, pollo, chorizo, queso, platano maduro
+                                    aguacate, papa francesa.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/food1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-text">
+                                <h1>Pizza generosa</h1>
+                                <p>
+                                    Masa artesanal, queso, carne desmechada, pollo desmechado, trocitos
+                                    de costillitas BBQ.
+
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/pizza.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </header>
+
+
+    <main class="products" id="productos">
+        <div class="tabs container">
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hambuerguesas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Clasica</h4>
+                                    <p>Carne artesanal, vegetales, pollo, jamón, queso, crunch, papa francesa.
+                                        (puedes elegir carne de res o pollo)
+                                    </p>
+                                    <span class="price"> $ 13.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa Beto</h4>
+                                    <p>Carne artesanal, vegetales, pollo, chorizo, queso, plátano maduro, aguacate, papa
+                                        francesa</p>
+                                    <span class="price"> $ 18.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa la poderosa</h4>
+                                    <p>Carne artesanal, queso, pico de gallo, guacamole, trozos de costilla ahumada,
+                                        vegetales</p>
+                                    <span class="price"> $ 17.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Pizzas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hawaiana</h4>
+                                    <p>Masa artesanal, queso, jamón, piña natural.</p>
+                                    <span class="price"> $ 8.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/pizza.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Carnes especial</h4>
+                                    <p>Masa artesanal, carne desmechada, tocineta, chorizo, queso</p>
+                                    <span class="price"> $ 7. 500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>mexicana</h4>
+                                    <p>Masa artesanal, maíz tierno, carne, pico de gallo, toztacos queso.</p>
+                                    <span class="price"> $ 8.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Perros Calientes</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Americano</h4>
+                                    <p>Salchicha americana, cebolla, pollo, crunch, salsas de la casa, queso, papa
+                                        francesa, piña.</p>
+                                    <span class="price"> $ 11.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Criollo</h4>
+                                    <p>SSalchicha americana, cebolla, pollo, crunch, salsas de la casa, queso, papa
+                                        francesa, mazorca gratinada, piña(opcional).</p>
+                                    <span class="price"> $ 14.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/info.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Mexicano</h4>
+                                    <p>Carne de res a la parrila, pollo, queso, pico de gallo, papa francesa, chorizo,
+                                        crocantes de maíz semi picantes.</p>
+                                    <span class="price"> $ 19.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab4" checked="checked" class="tabInput" value="4">
+            <label for="tab4">más delicias</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper4">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/bbq.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Costillitas BBQ</h4>
+                                    <p>Papa criolla o papa francesa, Contillitas BBQ</p>
+                                    <span class="price"> $ 14.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food7.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Salchipapa Grande</h4>
+                                    <p>Salchicha, pollo, papa francesa, queso</p>
+                                    <span class="price"> $ 20.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food8.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>ChoriCriollo</h4>
+                                    <p>Papa criolla, chorizo artesanal, pollo, queso.</p>
+                                    <span class="price"> $ 10.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="info container" id="informacion">
+        <div class="info-img">
+            <img src="images/info.png" alt="">
+        </div>
+        <div class="info-txt">
+            <h2>Información</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, blanditiis voluptatum animi excepturi
+                iste illo nesciunt officiis quas placeat fuga ut eveniet amet eius qui quam similique sunt aliquid
+                saepe?
+            </p>
+            <a href="#" class="btn-2">Más Información</a>
+        </div>
+    </section>
+
+    <section class="horario" id="horario">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Dirección</h4>
+                    <p>
+                        Cra. 4 #8-30
+                    </p>
+                    <p>
+                        Vélez, Santander
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes : 9 am - 9 pm
+                    </p>
+                    <p>
+                        Sabado y Domingo: 2 pm - 10 pm
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        5504506465
+                    </p>
+                </div>
+
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.86662666274!2d-73.67492672885929!3d6.013044385703483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e41f172d149c15d%3A0xcb0e30afcd76646!2sDonde%20Beto%20Pizza!5e0!3m2!1ses!2sco!4v1732849341397!5m2!1ses!2sco"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <button id="boton-arriba">
+        <i class="fas fa-arrow-up"></i> <!-- Ícono de Font Awesome -->
+      </button>
+    <footer class="footer container" id="contacto">
+        <img src="images/logo-1.png" alt="">
+
+        <div class="links">
+            <h4>Links de Interes</h4>
+            <ul>
+                <li><a href="#">Horario</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Desarrollador</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Links de Interes</h4>
+            <ul>
+                <li><a href="#">Horario</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Desarrollador</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2024 Johan Camilo Sierra. Todos los derechos reservados.</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
